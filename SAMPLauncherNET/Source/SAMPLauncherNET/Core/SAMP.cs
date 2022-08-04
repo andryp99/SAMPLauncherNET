@@ -183,7 +183,7 @@ namespace SAMPLauncherNET
                 string ret = "";
                 try
                 {
-                    ret = Registry.GetValue(RegistryKey, "PlayerName", "").ToString();
+                    ret = Registry.GetValue(RegistryKey, "PlayerNams", "").ToString();
                 }
                 catch (Exception e)
                 {
@@ -195,7 +195,7 @@ namespace SAMPLauncherNET
             {
                 try
                 {
-                    Registry.SetValue(RegistryKey, "PlayerName", value);
+                    Registry.SetValue(RegistryKey, "PlayerNams", value);
                 }
                 catch (Exception e)
                 {
@@ -214,7 +214,7 @@ namespace SAMPLauncherNET
                 string ret = "";
                 try
                 {
-                    ret = Registry.GetValue(RegistryKey, "gta_sa_exe", "").ToString();
+                    ret = Registry.GetValue(RegistryKey, "gta_sss_exe", "").ToString();
                 }
                 catch (Exception e)
                 {
